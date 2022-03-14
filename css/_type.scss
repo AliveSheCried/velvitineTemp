@@ -1,0 +1,30 @@
+h1 {
+  color: #357266;
+  font-size: 2rem;
+  width: fit-content;
+}
+
+.p_one,
+.p_two {
+  font-size: 5.2rem;
+  margin-top: 3rem;
+  line-height: 1.1;
+}
+
+.p {
+  &_one {
+    color: #f3e0ec;
+  }
+  &_two {
+    color: #a799b7;
+  }
+  &_three {
+    color: #fff;
+    font-size: 1.8rem;
+    margin: 4rem 0;
+  }
+}
+
+span {
+  border-bottom: #f3e0ec 5px solid;
+}
