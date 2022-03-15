@@ -4,7 +4,8 @@ main {
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 
-  max-width: 700px;
+  max-width: 600px;
+  min-width: 360px;
   //   border-bottom: 3px solid #3b3a4e;
   border-radius: 19px;
   padding: 3em 3em;

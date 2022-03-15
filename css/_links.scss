@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
   cursor: pointer;
+  transition: color 0.4s;
 
   &:link {
     color: #ff5a5f;
@@ -8,6 +9,7 @@ a {
 
   &:hover,
   &:focus {
+    transform: color 0.4s linear;
     color: #357266;
   }
 }
