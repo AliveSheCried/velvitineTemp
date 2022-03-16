@@ -9,16 +9,17 @@ h1 {
 .p_two {
   font-size: clamp(2.75rem, calc(1.8571rem + 3.8095vw), 4rem);
   //font-size: 5.2rem;
-  margin-top: 2rem;
   line-height: 1.1;
 }
 
 .p {
   &_one {
     color: #f3e0ec;
+    margin-top: 2.5rem;
   }
   &_two {
     color: #a799b7;
+    margin-top: 2rem;
   }
   &_three {
     color: #fff;
